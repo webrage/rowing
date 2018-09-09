@@ -1,0 +1,181 @@
+.subtle {font-weight: normal; color: grey; }
+.normal {font-weight: normal; color: black; }
+.bold   {font-weight: bold; color: black; }
+
+.footer    {font-size: 12px;
+            color: grey;
+            margin-top: 100px;
+            margin-bottom: 50px;
+            text-decoration: none;
+}
+
+.title3    {color: black; }
+.pagetitle {}
+
+.mainmenu {background-color: lightgrey;
+           text-decoration:  none;
+           color:            black;
+           vertical-align:   middle;}
+
+a:link    {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover   {text-decoration: underline;}
+a:active  {text-decoration: underline;}
+
+/***********************/
+/* logon component     */
+/***********************/
+
+.logbtn  {color:       black;
+       font-weight: bold;}
+
+.logonbtn  {background-color: green;
+            color: green;}
+.logoffbtn {background-color: lightgrey; color: lightgrey; border-color: lightgrey;}
+
+.password {background-color: lightgrey;}
+
+/***********************/
+/* clock component     */
+/***********************/
+
+.clock {
+  width: 400px;
+  border-color: grey;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  background: lightyellow;
+  padding: 10px;
+  text-align: center;
+}
+
+.clock {
+  font-size: 64px;
+  color: navy;
+  line-height: 1.2em;
+  font-family: HelveticaNeue-UltraLight, Helvetica;
+}
+
+/***********************/
+/* countdown component */
+/***********************/
+
+
+
+.countdown {
+  border-color: grey;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+
+  line-height: 1.2em;
+  font-family: HelveticaNeue-UltraLight, Helvetica;
+  text-align: center;
+}
+
+.units {
+  display: inline-block;
+  height: 72px;
+  width: 70px;
+  padding-top: 20px;
+}
+
+.unitname {
+  font-size: 14px;
+  width: 70px;
+}
+
+.unitvalue {
+  font-size: 30px;
+  width: 70px;
+}
+
+.finished {
+  background-color: grey;
+  color: darkgrey;
+}
+
+.final-cd {
+  background-color: yellow;
+  color: red;
+}
+
+.secs-left {
+  background-color: yellow;
+  color: red;
+}
+
+.mins-left {
+  background-color: yellow;
+  color: black;
+}
+
+.hrs-left {
+  background-color: lightyellow;
+  color: navy;
+}
+
+.sleeps-left {
+  background-color: lightyellow;
+  color: navy;
+}
+
+.weeks-left {
+  background-color: lightyellow;
+  color: navy;
+}
+
+.mths-left {
+  background-color: lightyellow;
+  color: navy;
+}
+
+.yrs-left {
+  background-color: lightyellow;
+  color: navy;
+}
+
+.diags {
+  background-color: white;
+  color: darkgrey;
+}
+
+/***********************/
+/* std events box */
+/* =========================== */
+
+.evt-box {background-color: white;
+            max-width: 320px;
+            padding: 0px;
+            margin: 5px;
+         /*   border: solid 1px lightgrey;  */
+         /*   border-radius: 10px;            */
+}
+
+.evt-head-box {/* background-color: lightgreen; */
+              text-align: center;
+              font-weight: bold;
+              color: black;
+              font-size: 1.2em;
+              padding-top: 0px;
+           /*   padding-bottom: 0px;              */
+           /*   border-radius: 10px 10px 0px 0px; */
+}
+
+.evt-foot-box {/* background-color: lightgreen; */
+              text-align: center;
+            /*  font-weight: bold; */
+            /*  color: black; */
+              font-size: 0.9em;
+              margin-top: 10px;
+              padding-top: 0px;
+              padding-bottom: 10px;
+        /*      border-radius: 0px 0px 10px 10px; */
+}
+/*
+.evt-item {background-color: red;
+          text-align: center;
+          font-weight: bold;
+          color: black;
+          padding-left: 10px;
+}
+*/
